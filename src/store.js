@@ -14,15 +14,15 @@ export const weatherList = (() => {
 })();
 
 
-export const cityList = (() => {
-    const { subscribe, update } = writable([]);
-    
-    return {
-        subscribe,
-        add: (cityName) => update(cList => [...cList, cityName]),
-        remove: (index) => update(cList => {
-            cList.splice(index, 1);
-            return cList;
-        }),
-    }
-})();
+// export const cityList = (() => {
+//     const { subscribe, update } = writable([]);
+//     
+//     return {
+//         subscribe,
+//         add: (cityName) => update(cList => [...cList, cityName]),
+//         remove: (index) => update(cList => {
+//             cList.splice(index, 1);
+//             return cList;
+//         }),
+//     }
+// })();

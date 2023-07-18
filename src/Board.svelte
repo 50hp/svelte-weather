@@ -1,6 +1,6 @@
 
 <script>
-    import { weatherList, cityList } from './store.js';
+    import { weatherList } from './store.js';
     import WeatherCard from './WeatherCard.svelte';
 </script>
 
